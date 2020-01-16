@@ -1,0 +1,14 @@
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\bin\Debug\bitcoin_reader.exe.config
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\bin\Debug\bitcoin_reader.exe
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\bin\Debug\bitcoin_reader.pdb
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader.csprojAssemblyReference.cache
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\MainWindow.g.cs
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\App.g.cs
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader_MarkupCompile.cache
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader_MarkupCompile.lref
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\MainWindow.baml
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader.g.resources
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader.Properties.Resources.resources
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader.csproj.GenerateResource.cache
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader.exe
+C:\Users\G986926\source\repos\bitcoin_reader\bitcoin_reader\obj\Debug\bitcoin_reader.pdb
