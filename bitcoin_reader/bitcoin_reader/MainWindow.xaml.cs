@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using bitcoin_reader;
+using Newtonsoft.Json;
 
 namespace bitcoin_reader
 {
@@ -31,11 +32,15 @@ namespace bitcoin_reader
         {
             try
             {
-
                 Rest r = new Rest();
-                r.GetBTC();
                 
-               
+                JSonRetreival jsr = new JSonRetreival();
+                string data = r.GetBTC();
+                jsr.FryTheJson(data);
+                txb.Text = data;
+
+                
+
             }
           catch ( Exception ex)
             {

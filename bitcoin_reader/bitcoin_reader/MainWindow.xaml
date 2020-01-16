@@ -11,6 +11,16 @@
         <TextBlock HorizontalAlignment="Left" Margin="171,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
         <Button Content="Get Current Price&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,101,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click"/>
         <Label x:Name="l1" Content="Label" HorizontalAlignment="Left" Margin="171,48,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txb" HorizontalAlignment="Left" Margin="314,89,-191,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="145" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-2.907"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.406"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
     </Grid>
 </Window>
