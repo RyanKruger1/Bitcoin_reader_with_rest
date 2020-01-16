@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:bitcoin_reader"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="334.5" Width="759.5">
+    <Grid Margin="0,0,484,0">
         <Label Content="Bitcoin Price" HorizontalAlignment="Left" Margin="54,48,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="171,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
         <Button Content="Get Current Price&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,101,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click"/>

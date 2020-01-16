@@ -25,7 +25,8 @@ class Rest
         var URL = new UriBuilder("https://pro-api.coinmarketcap.com/v1/cryptocurrency/map");
 
         var queryString = HttpUtility.ParseQueryString(string.Empty);
-        queryString["symbol"] = "BTC,USDT,BNB";
+        queryString["symbol"] = "BTC";
+        //queryString["convert"] = "BTC,USD";
 
         URL.Query = queryString.ToString();
 
