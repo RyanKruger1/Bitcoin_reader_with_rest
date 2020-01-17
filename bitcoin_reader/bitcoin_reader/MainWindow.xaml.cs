@@ -32,12 +32,13 @@ namespace bitcoin_reader
         {
             try
             {
-                Rest r = new Rest();
+                Sms s = new Sms();
+                s.sendSms();
                 
-                JSonRetreival jsr = new JSonRetreival();
-                string data = r.GetBTC();
-                jsr.FryTheJson(data);
-                txb.Text = data;
+                //JSonRetreival jsr = new JSonRetreival();//0731875508
+                //string data = r.GetBTC();
+                //jsr.FryTheJson(data);
+                //txb.Text = data;
 
                 
 

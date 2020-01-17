@@ -37,4 +37,11 @@ class Rest
         return client.DownloadString(URL.ToString());
     }
 
+    public void send50Messages()
+    {
+        var URL = new UriBuilder("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest");
+
+
+    }
+
 }

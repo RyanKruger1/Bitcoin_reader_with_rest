@@ -11,17 +11,23 @@ namespace bitcoin_reader
     class JSonRetreival
     {
         
-
         public string FryTheJson(string value)
         {
-            dynamic stuff = JsonConvert.DeserializeObject(value);
-            dynamic data = stuff.data;
-            string []values = data.Split(','); 
+            dynamic array = JsonConvert.DeserializeObject(value);
+            dynamic data = array.data;
 
+            foreach (var item in data)
+            {
+                dynamic currentData = item;
+                string name = currentData.name;
 
-          
-                
-            return value;
+                dynamic quote = currentData.quote;
+                dynamic usdQuote = quote.USD;
+
+                string price = usdQuote.price;
+
+            }
+            return null;
         }
 
 
