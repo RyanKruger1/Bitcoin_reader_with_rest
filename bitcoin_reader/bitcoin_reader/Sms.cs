@@ -15,7 +15,7 @@ class Sms
         string myPassword = "Kru@2020";
 
         // the details of the message we want to send
-        string myData = "{to: \"+27731875508\", body:\"OnewaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaStukNai\"}";
+        string myData = "{to: \"+27720866762\",body:\"Awe\"}";
 
         // build the request based on the supplied settings
         var request = WebRequest.Create(myURI);
